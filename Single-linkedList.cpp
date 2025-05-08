@@ -9,12 +9,12 @@ public:
     Node *next;
 };
 
-class List
+class SingleLinkedList
 {
     Node *START;
 
 public:
-    List()
+    SingleLinkedList()
     {
         START = NULL;
     }
@@ -45,7 +45,7 @@ public:
 
         while ((current != NULL) && (nim >= current->noMhs))
         {
-            if (nim == current ->noMhs)
+            if (nim == current->noMhs)
             {
                 cout << "\nDuplikasi noMhs tidak diijinkan\n";
                 return;
