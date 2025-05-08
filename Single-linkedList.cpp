@@ -113,4 +113,7 @@ public:
 
 int main()
 {
+    SingleLinkedList mhs;
+    int nim;
+    char ch;
 }
